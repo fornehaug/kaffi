@@ -199,6 +199,7 @@ footer {
     .topgrid {
         height: 500px;
         align-items: center;
+        justify-content: center;
     }
 
     .meny ul {
@@ -217,7 +218,7 @@ footer {
         border: 2px solid black;
         border-radius: 10px;
         padding: 0.5em;
-        width: 100%;
+        width: 90%;
         min-width: 200px;
         flex-shrink: 0;
         margin-left: 0;
@@ -247,7 +248,7 @@ footer {
         
     }
 
-    .rute2, .rute3  {
+    .rute {
         max-height: 250px;
     }
     
