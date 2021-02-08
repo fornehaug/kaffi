@@ -1,0 +1,254 @@
+*, html{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    height: 100%;
+    background: #6F4E37;
+    
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Wrapper = Main */
+
+.wrapper {
+    max-width: 1800px;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+        
+    
+}
+
+hr {
+    margin: 0;
+    height: 50px;
+    
+    border: 0;
+}
+
+/* Navigasjon Start */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    margin: 2em 0;
+    background: black;
+    color: white;
+    padding: 2em;
+    
+    
+}
+
+.logo a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+h1, h2, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.meny ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.meny ul li {
+    list-style: none;
+    padding: 0.5em 0 0 1em;
+}
+
+.meny ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+}
+
+.meny ul li a:hover {
+    font-weight: bolder;
+}
+
+/* Navigasjon slutt */
+
+
+/* Innhold start */
+
+.heading-text {
+    text-align: center;
+    margin: 2em auto;
+    padding: 0 1em;
+    
+}
+
+
+h1 {
+    font-size: 4rem;
+    
+}
+
+h2 {
+    font-weight: lighter;
+    color: #6F4E37
+}
+
+h4 {
+    font-size: 1.7rem;
+}
+
+
+
+
+
+.topgrid {
+    display: flex;
+    background-image: url(images/medium.jpg);
+    background-position: center;
+    height: 800px;
+    align-items: flex-end;
+    
+    
+}
+
+
+
+.grid1 {
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1em;
+    width: 40%;
+    min-width: 300px;
+    flex-shrink: 0;
+    margin-left: 3em;
+    margin-bottom: 3em;
+    
+}
+
+
+
+.galleri {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galleri > * {
+    flex: 1 1 10em;
+}
+
+.galleri img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+footer {
+    
+    background-color: black;
+    height: 200px;
+    line-height: 1.5em;
+    text-align: center;
+    color: white;
+    padding: 1.2em 0;
+    margin: auto;
+    
+    
+}
+
+.bunntekst {
+    display: inline-block;
+    text-align: left;
+    justify-self: start;
+}
+
+.bunntekst ul li {
+    list-style: none;
+    
+}
+.bunntekst ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.bunntekst ul li a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 450px) {
+    header {
+        display: block;
+    }
+
+    .topgrid {
+        height: 500px;
+        align-items: center;
+    }
+
+    .meny ul {
+        padding: 0 1em;
+    }
+
+    .meny ul li {
+        padding: 0 0.5em;
+    }
+    
+    .meny ul li a {
+        font-size: 0.8rem;
+    }
+    
+    .grid1 {
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 0.5em;
+        width: 100%;
+        min-width: 200px;
+        flex-shrink: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+        height: 200px;
+        
+    }
+
+    .rute2, .rute3  {
+        max-height: 250px;
+    }
+    
+}
