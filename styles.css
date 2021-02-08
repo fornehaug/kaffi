@@ -118,7 +118,7 @@ h4 {
 
 .topgrid {
     display: flex;
-    background-image: url(images/medium.jpg);
+    background-image: url(Images/medium.jpg);
     background-position: center;
     height: 800px;
     align-items: flex-end;
