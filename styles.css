@@ -119,8 +119,8 @@ h4 {
 .topgrid {
     display: flex;
     background-image: url(Images/medium.jpg);
-    background-position: center;
-    height: 800px;
+    background-position: 90% 15%;
+    height: 500px;
     align-items: flex-end;
     
     
@@ -129,15 +129,18 @@ h4 {
 
 
 .grid1 {
-    border: 3px solid black;
+    /* border: 3px solid black;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 1em;
-    width: 40%;
-    min-width: 300px;
+    background-color: rgba(255, 255, 255, 0.9); */
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 2em;
+    width: 30%;
+    min-width: 200px;
     flex-shrink: 0;
     margin-left: 3em;
     margin-bottom: 3em;
+    line-height: 1.5rem;
     
 }
 
@@ -156,6 +159,20 @@ h4 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.container-map {
+    padding: 2em;
+    display: grid;
+    place-content: center;
+    width: 100%;
+    
+}
+
+iframe {
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
 }
 
 
@@ -215,9 +232,9 @@ footer {
     }
     
     .grid1 {
-        border: 2px solid black;
-        border-radius: 10px;
-        padding: 0.5em;
+        /* border: 2px solid black;
+        border-radius: 10px; */
+        padding: 1em;
         width: 90%;
         min-width: 200px;
         flex-shrink: 0;
@@ -250,6 +267,10 @@ footer {
 
     .rute {
         max-height: 250px;
+    }
+
+    .container-map {
+        padding: 0.5em;
     }
     
 }
